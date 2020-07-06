@@ -8,9 +8,10 @@ namespace CarLotSimulator
         //Car shall have the following methods: MakeEngineNoise(), MakeHonkNoise()
         //The methods should take one string parameter: the respective noise property
 
+        //create a CarLot class with a static field called numberOfCars.
         public Car()
         {
-
+            CarLots._numberOfCars++;
         }
 
         public Car(int year, string make, string model, string engineNoise, string honkNoise, bool isDrivable)

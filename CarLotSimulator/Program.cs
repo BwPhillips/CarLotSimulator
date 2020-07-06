@@ -48,7 +48,7 @@ namespace CarLotSimulator
 
             lot.Cars.Add(prizeCar3);
 
-
+            Console.WriteLine($"Number of cars in lot: {CarLots._numberOfCars}");
             //Set the properties for each of the cars
 
 
@@ -57,6 +57,7 @@ namespace CarLotSimulator
             prizeCar.MakeEngineNoise(prizeCar.EngineNoise);
             prizeCar2.MakeEngineNoise(prizeCar2.EngineNoise);
             prizeCar3.MakeEngineNoise(prizeCar3.EngineNoise);
+
 
             //*************BONUS*************//
 
@@ -73,6 +74,7 @@ namespace CarLotSimulator
             {
                 Console.WriteLine($"Year: {car.Year} Make: {car.Make} Model: {car.Model}");
             }
+
         }
     }
 }
